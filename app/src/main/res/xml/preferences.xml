@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:title="@string/cat_zoom"
+        app:iconSpaceReserved="false">
+
+        <ListPreference
+            app:key="pref_zoom_limit"
+            app:title="@string/pref_zoom_limit_title"
+            app:summary="%s"
+            app:dialogTitle="@string/pref_zoom_limit_title"
+            app:entries="@array/zoom_limit_entries"
+            app:entryValues="@array/zoom_limit_values"
+            app:defaultValue="30"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/cat_ai_enhancement"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            app:key="pref_ai_enhance"
+            app:title="@string/pref_ai_enhance_title"
+            app:summary="@string/pref_ai_enhance_summary"
+            app:defaultValue="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            app:key="pref_ai_strength"
+            app:title="@string/pref_ai_strength_title"
+            app:summary="%s"
+            app:dialogTitle="@string/pref_ai_strength_title"
+            app:entries="@array/ai_strength_entries"
+            app:entryValues="@array/ai_strength_values"
+            app:defaultValue="balanced"
+            app:dependency="pref_ai_enhance"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            app:key="pref_zoom_sr"
+            app:title="@string/pref_zoom_sr_title"
+            app:summary="@string/pref_zoom_sr_summary"
+            app:defaultValue="true"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            app:key="pref_sharpness"
+            app:title="@string/pref_sharpness_title"
+            app:summary="%s"
+            app:dialogTitle="@string/pref_sharpness_title"
+            app:entries="@array/sharpness_entries"
+            app:entryValues="@array/sharpness_values"
+            app:defaultValue="default"
+            app:iconSpaceReserved="false" />
+
+        <ListPreference
+            app:key="pref_noise_reduction"
+            app:title="@string/pref_noise_reduction_title"
+            app:summary="%s"
+            app:dialogTitle="@string/pref_noise_reduction_title"
+            app:entries="@array/noise_reduction_entries"
+            app:entryValues="@array/noise_reduction_values"
+            app:defaultValue="high_quality"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreferenceCompat
+            app:key="pref_hdr_scene"
+            app:title="@string/pref_hdr_scene_title"
+            app:summary="@string/pref_hdr_scene_summary"
+            app:defaultValue="true"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/cat_leica"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            app:key="pref_force_leica"
+            app:title="@string/pref_force_leica_title"
+            app:summary="@string/pref_force_leica_summary"
+            app:defaultValue="true"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="@string/cat_about"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            app:key="pref_author"
+            app:title="@string/branding_credit"
+            app:summary="@string/module_scope_info"
+            app:iconSpaceReserved="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

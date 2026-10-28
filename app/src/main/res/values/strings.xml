@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Xiaomi 13 Camera Mod</string>
+    <string name="branding_credit">made by houjix</string>
+    <string name="module_scope_info">Target: com.android.camera (Xiaomi 13 / fuxi)</string>
+
+    <!-- Categories -->
+    <string name="cat_zoom">Zoom Range &amp; Ratios</string>
+    <string name="cat_ai_enhancement">AI &amp; Computational Photography</string>
+    <string name="cat_leica">Leica &amp; Color Style</string>
+    <string name="cat_about">About Module</string>
+
+    <!-- Zoom Limit -->
+    <string name="pref_zoom_limit_title">Maximum Zoom Limit</string>
+    <string name="pref_zoom_limit_summary">Configure digital zoom ceiling for photo and telephoto modes</string>
+
+    <!-- AI Enhancement -->
+    <string name="pref_ai_enhance_title">AI Scene Enhancement</string>
+    <string name="pref_ai_enhance_summary">Enable Qualcomm Spectra AI scene detection and auto-tuning</string>
+
+    <string name="pref_ai_strength_title">AI Processing Strength</string>
+    <string name="pref_ai_strength_summary">Control color vibrance and scene segmentation weight</string>
+
+    <string name="pref_zoom_sr_title">Enhanced Multi-Frame Zoom (SR)</string>
+    <string name="pref_zoom_sr_summary">Force multi-frame super-resolution alignment on telephoto shots</string>
+
+    <string name="pref_sharpness_title">ISP Sharpness (Edge Enhancement)</string>
+    <string name="pref_sharpness_summary">Adjust hardware edge enhancement mode in Camera2 pipeline</string>
+
+    <string name="pref_noise_reduction_title">Hardware Noise Reduction</string>
+    <string name="pref_noise_reduction_summary">Select ISP multi-frame denoising (MFNR) algorithm</string>
+
+    <string name="pref_hdr_scene_title">HDR Scene Optimizer</string>
+    <string name="pref_hdr_scene_summary">Optimize dynamic range bracketing for high-contrast scenes</string>
+
+    <!-- Leica -->
+    <string name="pref_force_leica_title">Force Leica Summicron Mode</string>
+    <string name="pref_force_leica_summary">Ensure Leica Authentic &amp; Vibrant profiles are unlocked</string>
+</resources>

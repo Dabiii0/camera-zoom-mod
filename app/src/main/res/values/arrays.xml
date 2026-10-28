@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Zoom Limit -->
+    <string-array name="zoom_limit_entries">
+        <item>30× (Stock Snapdragon 8 Gen 2 Limit)</item>
+        <item>50× (Extended Telephoto Crop)</item>
+        <item>100× (Maximum Ultra Digital Crop)</item>
+    </string-array>
+    <string-array name="zoom_limit_values">
+        <item>30</item>
+        <item>50</item>
+        <item>100</item>
+    </string-array>
+
+    <!-- AI Strength -->
+    <string-array name="ai_strength_entries">
+        <item>Natural (Subtle ISP Tuning)</item>
+        <item>Balanced (Default Xiaomi Tuning)</item>
+        <item>Enhanced (Punchy Leica Vivid Tone)</item>
+    </string-array>
+    <string-array name="ai_strength_values">
+        <item>natural</item>
+        <item>balanced</item>
+        <item>enhanced</item>
+    </string-array>
+
+    <!-- Sharpness (Edge Mode) -->
+    <string-array name="sharpness_entries">
+        <item>System Default (HAL / Driver Controlled)</item>
+        <item>Natural / Soft (EDGE_MODE_OFF)</item>
+        <item>Balanced (EDGE_MODE_FAST)</item>
+        <item>Enhanced Sharpness (EDGE_MODE_HIGH_QUALITY)</item>
+    </string-array>
+    <string-array name="sharpness_values">
+        <item>default</item>
+        <item>natural</item>
+        <item>balanced</item>
+        <item>enhanced</item>
+    </string-array>
+
+    <!-- Noise Reduction Mode -->
+    <string-array name="noise_reduction_entries">
+        <item>Standard / Fast (NOISE_REDUCTION_MODE_FAST)</item>
+        <item>High Quality Multi-Frame (NOISE_REDUCTION_MODE_HIGH_QUALITY)</item>
+        <item>Minimal Noise Reduction (NOISE_REDUCTION_MODE_MINIMAL)</item>
+    </string-array>
+    <string-array name="noise_reduction_values">
+        <item>standard</item>
+        <item>high_quality</item>
+        <item>minimal</item>
+    </string-array>
+</resources>
